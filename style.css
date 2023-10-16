@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    margin-left: 3%;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    font-size: small;
+}
+.bluelogo{
+    width: 45px;
+    height: 25px;
+    background-image: url(images/blue_logo.png);
+    background-size: cover;
+    margin-bottom: 0.6%;
+}
+.property,.motors{
+
+margin-left: 3%;
+}
+.nav_icons{
+font-size: 20px;
+}
+.property:hover{
+    color: rgba(0, 0, 255, 0.63);
+}
+.motors:hover{
+    color: rgba(0, 0, 255, 0.623);
+}
+.searchbar{
+    margin-left: 3%;
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+}
+.black_logo{
+    width: 72px;
+    height: 40px;
+    background-image: url(images/black_logo.png);
+    background-size: cover;
+}
+.selector{
+    border:  2px solid black;
+    width: 272px;
+    height: 48px;
+    border-radius: 2px;
+    margin-left: 2%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+#select{
+    width: 272px;
+    height: 44px;
+    border: none;    
+    margin-left: 5px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.753);
+}.bluelogo:hover{
+    cursor: pointer;
+    }
+.black_logo:hover{
+cursor: pointer;
+}.property:hover{
+cursor: pointer;
+}
+.motors:hover{
+cursor: pointer;
+}
+.search{
+    width: 600px;
+    height: 48px;
+    border:  2px solid black;
+    border-right: none;
+    border-radius: 2px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+.searcharea{
+    margin-left: 12px;
+    padding: 5px;
+
+    width: 535px;
+}
+#searching{
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.521);
+    outline: none;
+}
+
+.searchicon{
+    font-size: x-large;
+    color: white;
+    background-color: #002F34;
+    width: 52px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.login{
+    margin-left: 3%;
+
+}
+.login a{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.login a:hover{
+    text-decoration: none;
+}
+.sell{
+    width: 120px;
+    height: 50px;
+    border-top: 5px solid rgb(10, 240, 248);
+    border-right: 5px solid rgb(10, 54, 248);
+    border-left: 5px solid yellow;
+    border-radius: 25px;
+display: flex;
+border-collapse: collapse;
+margin-left: 3%;
+}
+.plus{
+    width: 50%;
+    height: 100%;
+    border-bottom:  5px solid yellow;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 20%;
+
+}
+.selltext{
+    width: 50%;
+    height: 100%;
+    border-bottom:  5px solid  rgb(10, 54, 248);
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding-right: 20%;
+}
+.links{
+    margin-left: 1.7vw;
+    margin-top: 2vh;
+    display: flex;
+    width: 60%;
+    height: 28px;
+    justify-content: space-evenly;
+}
+.links p:hover{
+    color: rgb(102, 120, 223);
+    cursor: pointer;
+}
+#bolder{
+    font-weight: 700;
+}#bolder:hover{
+    color: black;
+}
+.bigger{
+    font: 35px;
+}
+.remaining{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.herosection{
+    height: 220px;
+    width: 90%;
+  margin-top: 1%;
+ background-image: url(images/hero_image.jpg);
+    background-size: cover;
+}
+.categories_container a{
+    text-decoration: none;
+    color: black;
+}
+.ads{
+    width:60% ;
+    height: 125px;
+    background-image: url(images/ad.png);
+    background-size: contain;
+    margin-left: 13%;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+}
+.categories_container{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+
+
+}
+.categories_container{
+margin-top: 1%;
+text-align: center;
+width: 94vw;
+}
+.categories_img{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 88px;
+    width: 88px;
+}
+.div1{
+    width: 91vw;
+    display: flex;
+    justify-content: space-between;
+}
+.viewmore{
+    text-decoration: none;
+    color: rgb(4, 91, 252);
+    font-size: larger;
+}
+.div2{
+    display: grid;
+    width: 95vw;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.div2items{
+    height: 312px;
+    width: 21vw;
+    border: 1px solid black;
+}
+.div2images{
+    width: 100%;
+    height: 60%;
+}
+.price{
+    margin-top: 4%;
+    margin-left: 5%;
+    display: inline-block;
+}
+.heart{
+    font-size: 24px;
+    margin-left: 53%;
+}
+.description{
+    margin-top: 4%;
+    margin-left: 5%;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+}
+.address{
+    margin-top: 5%;
+    margin-left: 5%;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.747);
+}
+.timing{
+    margin-top: 1%;
+    margin-left: 5%;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.747);
+    font-size: smaller;
+}
+.tryolx{
+    margin-top: 2%;
+    width: 94%;
+    height: 200px;
+    background-image: url(images/olxtry.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.listings{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: rgba(211, 211, 211, 0.726);
+    width: 100%;
+    height: 170px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+pre{
+    line-height: 20px;
+    font-weight: 500;
+}
+.download_buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.downloadbtns{
+    width: 84px;
+    height: 28px;
+}
+#downloadbtn1{
+    background-image: url(images/iconGooglePlayEN.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}#downloadbtn2{
+    background-image: url(images/iconAppStoreEN.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}#downloadbtn3{
+    background-image: url(images/iconAppGallery.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.end{
+    width: 100%;
+    height: 51px;
+    background-color: #002F34;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5%;
+}
